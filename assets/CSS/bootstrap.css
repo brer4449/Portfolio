@@ -1,0 +1,6 @@
+div.sizedisplay {
+    position:absolute;
+    top: 1px;
+    left: 4px;
+    z-index: 20;
+}
