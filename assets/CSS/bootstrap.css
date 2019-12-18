@@ -5,7 +5,11 @@ div.size-display {
     z-index: 20;
 }
 
-img {
-    display: inline-block;
-    margin-bottom: 10px;
+#textcover1{
+    position: absolute;
+    z-index: 20;
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 200%;
+    background-color: teal;
 }
