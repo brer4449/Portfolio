@@ -4,3 +4,8 @@ div.size-display {
     left: 4px;
     z-index: 20;
 }
+
+img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
