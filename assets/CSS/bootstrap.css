@@ -5,6 +5,9 @@ div.size-display {
     z-index: 20;
 }
 
+div.holder {
+    position:relative;
+}
 #textcover1{
     position: absolute;
     z-index: 20;
@@ -12,4 +15,13 @@ div.size-display {
     margin-left: 110px;
     font-size: 200%;
     background-color: teal;
+}
+
+footer.affix {
+    border-top: solid gray 5px;
+    background-color: teal;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
 }
