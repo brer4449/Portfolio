@@ -8,7 +8,51 @@ div.size-display {
 div.holder {
     position:relative;
 }
+
 #textcover1{
+    position: absolute;
+    z-index: 20;
+    top: 80%;
+    left: 22%;
+    font-size: 200%;
+    background-color: teal;
+}
+
+#textcover2{
+    position: absolute;
+    z-index: 20;
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 200%;
+    background-color: teal;
+}
+
+#textcover3{
+    position: absolute;
+    z-index: 20;
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 200%;
+    background-color: teal;
+}
+
+#textcover4{
+    position: absolute;
+    z-index: 20;
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 200%;
+    background-color: teal;
+}
+#textcover5{
+    position: absolute;
+    z-index: 20;
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 200%;
+    background-color: teal;
+}
+#textcover6{
     position: absolute;
     z-index: 20;
     margin-top: 280px;
