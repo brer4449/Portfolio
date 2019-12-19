@@ -1,3 +1,11 @@
+div.bg {
+    background-image: url(/assets/images/pic1);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 div.size-display {
     position:absolute;
     top: 1px;
@@ -21,8 +29,8 @@ div.holder {
 #textcover2{
     position: absolute;
     z-index: 20;
-    margin-top: 280px;
-    margin-left: 110px;
+    top: 80%;
+    left: 20%;
     font-size: 200%;
     background-color: teal;
 }
@@ -30,8 +38,8 @@ div.holder {
 #textcover3{
     position: absolute;
     z-index: 20;
-    margin-top: 280px;
-    margin-left: 110px;
+    top: 80%;
+    left: 31%;
     font-size: 200%;
     background-color: teal;
 }
@@ -39,28 +47,31 @@ div.holder {
 #textcover4{
     position: absolute;
     z-index: 20;
-    margin-top: 280px;
-    margin-left: 110px;
+    top: 80%;
+    left: 27%;
     font-size: 200%;
     background-color: teal;
 }
 #textcover5{
     position: absolute;
     z-index: 20;
-    margin-top: 280px;
-    margin-left: 110px;
+    top: 80%;
+    left: 35%;
     font-size: 200%;
     background-color: teal;
 }
 #textcover6{
     position: absolute;
     z-index: 20;
-    margin-top: 280px;
-    margin-left: 110px;
+    top: 80%;
+    left: 38%;
     font-size: 200%;
     background-color: teal;
 }
 
+img.rotateimage {
+    transform: rotate(90deg);
+}
 footer.affix {
     border-top: solid gray 5px;
     background-color: teal;
