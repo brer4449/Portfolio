@@ -20,7 +20,7 @@ div.holder {
 #textcover1{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 22%;
     font-size: 200%;
     background-color: teal;
@@ -29,7 +29,7 @@ div.holder {
 #textcover2{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 20%;
     font-size: 200%;
     background-color: teal;
@@ -38,7 +38,7 @@ div.holder {
 #textcover3{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 31%;
     font-size: 200%;
     background-color: teal;
@@ -47,7 +47,7 @@ div.holder {
 #textcover4{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 27%;
     font-size: 200%;
     background-color: teal;
@@ -55,7 +55,7 @@ div.holder {
 #textcover5{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 35%;
     font-size: 200%;
     background-color: teal;
@@ -63,7 +63,7 @@ div.holder {
 #textcover6{
     position: absolute;
     z-index: 20;
-    top: 80%;
+    bottom: 10%;
     left: 38%;
     font-size: 200%;
     background-color: teal;
@@ -72,6 +72,7 @@ div.holder {
 img.rotateimage {
     transform: rotate(90deg);
 }
+
 footer.affix {
     border-top: solid gray 5px;
     background-color: teal;
@@ -82,5 +83,8 @@ footer.affix {
 }
 
 #sticky-footer {
-    flex-shrink: none;
+    flex-grow: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
