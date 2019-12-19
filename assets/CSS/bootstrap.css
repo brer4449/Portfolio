@@ -80,3 +80,7 @@ footer.affix {
     width: 100%;
     z-index: 9999;
 }
+
+#sticky-footer {
+    flex-shrink: none;
+  }
