@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/so-white.png);
+    background-image: url(../images/watercolor-background.jpg);
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,6 +11,12 @@ div.size-display {
     top: 1px;
     left: 4px;
     z-index: 20;
+}
+
+img.image {
+    height: 300px;
+    width: 20%;
+    margin-top: 30px;
 }
 
 div.holder {
@@ -69,22 +75,17 @@ div.holder {
     background-color: teal;
 }
 
-img.rotateimage {
-    transform: rotate(90deg);
-}
-
-footer.affix {
-    border-top: solid gray 5px;
-    background-color: teal;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-#sticky-footer {
+footer.sticky-footer {
+    z-index: 21;
     flex-grow: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
+
+@media(max-width: 991px) {
+    img.image{
+        display: auto;
+        height: 180px;
+    }
+}
