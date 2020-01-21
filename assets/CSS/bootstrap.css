@@ -30,13 +30,21 @@ div.holder {
     position:relative;
 }
 
+img.img-fluid{
+    margin-bottom: 10px;
+}
+
+p.textcover{
+    background-color: white;
+}
+
 #textcover1{
     position: absolute;
     z-index: 20;
     bottom: 10%;
     left: 22%;
     font-size: 200%;
-    background-color: teal;
+    
 }
 
 #textcover2{
@@ -45,7 +53,6 @@ div.holder {
     bottom: 10%;
     left: 20%;
     font-size: 200%;
-    background-color: teal;
 }
 
 #textcover3{
@@ -54,7 +61,6 @@ div.holder {
     bottom: 10%;
     left: 31%;
     font-size: 200%;
-    background-color: teal;
 }
 
 #textcover4{
@@ -63,23 +69,22 @@ div.holder {
     bottom: 10%;
     left: 27%;
     font-size: 200%;
-    background-color: teal;
 }
+
 #textcover5{
     position: absolute;
     z-index: 20;
     bottom: 10%;
     left: 38%;
     font-size: 200%;
-    background-color: teal;
 }
+
 #textcover6{
     position: absolute;
     z-index: 20;
     bottom: 10%;
     left: 38%;
     font-size: 200%;
-    background-color: teal;
 }
 
 footer.sticky-footer {
