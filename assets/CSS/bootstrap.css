@@ -83,7 +83,6 @@ p.textcover {
 }
 
 footer.sticky-footer {
-  height: 10px;
   z-index: 21;
   position: fixed;
   bottom: 0;
