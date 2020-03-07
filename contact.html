@@ -69,42 +69,49 @@
     <br />
 
     <div class="container">
-      <form>
+      <form action="https://formspree.io/xyyjvbzz" method="POST">
         <div class="form-group">
-          <label for="exampleFormControlInput1">Your name</label>
+          <label for="name">Name</label>
           <input
-            type="email"
+            name="name"
+            type="text"
             class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="John Doe"
+            placeholder="First & Last Name"
+            required
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="_replyto">Email address</label>
           <input
+            name="_replyto"
             type="email"
             class="form-control"
-            id="exampleFormControlInput1"
             placeholder="name@example.com"
+            required
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Subject</label>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-          />
+          <label for="subject">Subject</label>
+          <input name="subject" type="text" class="form-control" />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="message">Message</label>
           <textarea
+            name="message"
             class="form-control"
-            id="exampleFormControlTextarea1"
             rows="3"
+            required
           ></textarea>
         </div>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <!-- hidden input tag to redirect to my very own personalized thank you page, cuz fuck theirs-->
+        <!-- <input
+          type="hidden"
+          name="_next"
+          value="https://mysite.com/thanks.html"
+        /> -->
+        <button type="submit" value="Send" class="btn btn-primary">
+          Submit
+        </button>
       </form>
     </div>
     <br /><br />
