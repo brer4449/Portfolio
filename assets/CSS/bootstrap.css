@@ -18,68 +18,12 @@ img.demo-img:hover {
   filter: none;
 }
 
-#upper {
-  margin-top: 30px;
-}
-
-div.holder {
+/* div.holder {
   position: relative;
-}
+} */
 
-img.img-fluid {
+img {
   margin-bottom: 10px;
-}
-
-p.textcover {
-  background-color: white;
-}
-
-#textcover1 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 22%;
-  font-size: 200%;
-}
-
-#textcover2 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 20%;
-  font-size: 200%;
-}
-
-#textcover3 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 31%;
-  font-size: 200%;
-}
-
-#textcover4 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 27%;
-  font-size: 200%;
-}
-
-#textcover5 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 38%;
-  font-size: 200%;
-}
-
-#textcover6 {
-  position: absolute;
-  z-index: 20;
-  bottom: 10%;
-  left: 38%;
-  font-size: 200%;
 }
 
 footer.sticky-footer {
