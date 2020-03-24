@@ -13,13 +13,13 @@
 
 <body>
   <!--Gary's helpful indicator in top left corner to show what current browser size is-->
-  <div class="size-display">
+  <!-- <div class="size-display">
     <span class="d-inline d-sm-none d-md-none d-lg-none d-xl-none">XS</span>
     <span class="d-xs-none d-sm-inline d-md-none d-lg-none d-xl-none">SM</span>
     <span class="d-xs-none d-sm-none d-md-inline d-lg-none d-xl-none">MD</span>
     <span class="d-xs-none d-sm-none d-md-none d-lg-inline d-xl-none">LG</span>
     <span class="d-xs-none d-sm-none d-md-none d-lg-none d-xl-inline">XL</span>
-  </div>
+  </div> -->
 
   <br /><br />
   <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -44,6 +44,22 @@
       </ul>
     </div>
   </nav>
+
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h4 class="text-white">Collapsed content</h4>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+
   <br />
 
   <div class="container">
@@ -58,7 +74,7 @@
       <div class="col-lg-6">
         <div class="holder text-center">
           <h3>BidBot, an Auction site with full MERN stack</h3>
-          <a href="https://brer4449.github.io/groupproject1/" target="_blank"><img src="assets/images/bidbot.png"
+          <a href="https://bidbot-auction.herokuapp.com/" target="_blank"><img src="assets/images/bidbot.png"
               class="rounded text-center img-fluid demo-img" alt="sample of project" /></a>
         </div>
       </div>
@@ -135,6 +151,7 @@
       </p>
     </div>
   </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
