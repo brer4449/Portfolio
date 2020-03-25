@@ -9,6 +9,12 @@ div.size-display {
   z-index: 20;
 }
 
+.biopic {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+}
+
 img.demo-img {
   filter: blur(2px);
   -webkit-filter: blur(2px);
@@ -16,14 +22,6 @@ img.demo-img {
 
 img.demo-img:hover {
   filter: none;
-}
-
-/* div.holder {
-  position: relative;
-} */
-
-img {
-  margin-bottom: 10px;
 }
 
 footer.sticky-footer {
