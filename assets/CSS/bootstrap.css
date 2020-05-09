@@ -15,6 +15,10 @@ div.size-display {
   margin: 10px;
 }
 
+.card {
+  width: 25rem;
+}
+
 img.demo-img {
   filter: blur(2px);
   -webkit-filter: blur(2px);
