@@ -30,3 +30,7 @@ footer.sticky-footer {
   bottom: 0;
   width: 100%;
 }
+
+p.pfooter {
+  margin-bottom: 0;
+}
