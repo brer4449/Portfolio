@@ -76,7 +76,12 @@
         </div>
         <div class="form-group">
           <label for="subject">Subject</label>
-          <input name="subject" type="text" class="form-control" />
+          <input
+            name="subject"
+            type="text"
+            class="form-control"
+            placeholder="What is it you want to discuss?"
+          />
         </div>
         <div class="form-group">
           <label for="message">Message</label>
@@ -84,6 +89,7 @@
             name="message"
             class="form-control"
             rows="3"
+            placeholder="Please elaborate on your thoughts..."
             required
           ></textarea>
         </div>
@@ -91,7 +97,7 @@
         <input
           type="hidden"
           name="_next"
-          value="https://berickson.me/thanks.html"
+          value="https://berickson.net/thankyou.html"
         />
         <button type="submit" value="Send" class="btn btn-primary">
           Submit
